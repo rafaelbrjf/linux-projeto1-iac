@@ -12,3 +12,5 @@ English
 
 Script made for the AWS Cloud Bootcamp's Project, from DIO. It's an IaC (Infrastructure as Code) script to manage infrastructure through code, not manually.
 It's ideal to be used in mass configurations, specially to avoid mistakes when configuring multiple machines.
+
+In this script, we created users, directories, groups and changed permissions, also checking initially if the logged user is root.
