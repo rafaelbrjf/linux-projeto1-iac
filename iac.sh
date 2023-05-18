@@ -20,15 +20,11 @@ mkdir adm
 mkdir ven
 mkdir sec
 
-echo "Directories created."
-
 echo "Creating groups..."
 
 groupadd GRP_ADM
 groupadd GRP_VEN
 groupadd GRP_SEC
-
-echo "Groups created."
 
 echo "Creating users with a common password and forcing them to change after..."
 
@@ -54,8 +50,6 @@ passwd josefina -e
 passwd amanda -e
 passwd rogerio -e
 
-echo "Users created."
-
 echo "Changing permissions..."
 
 chown root:GRP_ADM /adm
@@ -67,5 +61,5 @@ chmod 770 /adm
 chmod 770 /ven
 chmod 770 /sec
 
-echo "Done. Closing."
+echo "DOne."
 
